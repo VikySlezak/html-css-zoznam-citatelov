@@ -1,0 +1,34 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  background: url(čítanie.jpg) center / cover;
+  background-color: #fff5;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0.7rem 0.8rem #0005;
+  border-radius: 0.8rem;
+}
+
+.nadpis {
+  background-color: rgba(53, 64, 49, 0.267);
+  padding: 0.8rem 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  color: rgb(28, 59, 88);
+}
+
+.obsah {
+  width: 95%;
+  max-height: calc(89% - 0.8rem);
+  background-color: #fffb;
+  margin: 0.8rem auto;
+  overflow: auto;
+}
+
+table,
+tr,
+td {
+  padding: 1rem;
+}
